@@ -1,0 +1,6 @@
+.slider__container {
+    width: 874px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

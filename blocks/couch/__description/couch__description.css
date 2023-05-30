@@ -1,0 +1,10 @@
+.couch__description {
+    font-family: var(--font-family-standart-variant-1);
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-extra-small-variant-1);
+    line-height: 30px;
+    text-align: right;
+    color: var( --font-color-variant-8);
+    margin: 0;
+}

@@ -1,0 +1,9 @@
+.contact-information__text {
+    max-width: 244px;
+    font-family: var(--font-family-standart-variant-1);
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-extra-small-variant-1);
+    line-height: 30px;
+    color: #767676;
+}

@@ -1,0 +1,9 @@
+.services-list__button {
+    background: var(--theme-color-variant-2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    width: 305px;
+    height: 55.22px;
+    margin-bottom: 28px;
+}

@@ -1,0 +1,10 @@
+.type-service__price {
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-extrabold);
+    font-size: var(--font-size-title-block);
+    line-height: 47px;
+    text-align: center;
+    color: var(--font-color-variant-5);
+    margin-bottom: 31px;
+}

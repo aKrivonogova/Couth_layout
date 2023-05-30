@@ -1,0 +1,18 @@
+.services__item {
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.services__item:last-of-type {
+    margin-bottom: 35px;
+}
+
+.services__item::before {
+    content: '';
+    width: 17px;
+    top: 6px;
+    height: 17px;
+    border-radius: 50%;
+    position: absolute;
+    background: var(--theme-color-variant-2);
+}

@@ -1,0 +1,15 @@
+.requests__text {
+    font-family: var(--font-family-standart-variant-1);
+    font-style: normal;
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-small);
+    line-height: 33px;
+    text-align: center;
+    color: var(--font-color-variant-3);
+    border: 0.2px solid #F1F0F0;
+    margin: 0;
+}
+
+.requests__text:last-of-type{
+    max-width: 214px;
+}

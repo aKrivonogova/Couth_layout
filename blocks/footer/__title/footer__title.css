@@ -1,0 +1,10 @@
+.footer__title {
+    padding-top: 41px;
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-title-block);
+    color: var(--font-color-variant-3);
+    line-height: 48px;
+    margin-bottom: 83px;
+}

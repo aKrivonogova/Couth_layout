@@ -1,0 +1,44 @@
+:root {
+    /* размеры шрфтов  */
+    --font-size-main-title: 3.4375rem;
+    --font-size-title-block: 2.1875rem;
+    --font-size-extra-small-variant-1: 1.375rem;
+    --font-size-extra-small-variant-2: 1.4375rem;
+    --font-size-small: 1.5rem;
+    --font-size-medium: 1.75rem;
+    --font-size-extra-medium: 1.875rem;
+    --font-size-standard: 1rem;
+    /*семество шрифтов*/
+    --font-family-title: 'Playfair Display';
+    --font-family-standart-variant-1: 'Open Sans';
+    --font-family-standart-variant-2: 'Roboto';
+    /* жирность шрифта  */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    /*цвета шрифтов*/
+    --font-color-variant-1: #221F1F;
+    --font-color-variant-2: #FFFFFF;
+    --font-color-variant-3: #000000;
+    --font-color-variant-4: #323232;
+    --font-color-variant-5: #497960;
+    --font-color-variant-6: #767676;
+    --font-color-variant-7: #FFFEFE;
+    --font-color-variant-8: #352217;
+
+    /*цвета фона, кнопок, элементов*/
+    --theme-color-variant-1: #FFFFFF;
+    --theme-color-variant-2: #9DD3A8;
+    --theme-color-variant-3: #4B7B62;
+    --theme-color-variant-4: #F9F9F9;
+    --theme-color-variant-5: #FBFAFA;
+
+    /* кнопки */
+    --button-font-size: 1.25rem;
+    --button-heigh-small: 52px;
+    --button-heigh-medium: 55px;
+    --button-heigh-large: 65px;
+
+}

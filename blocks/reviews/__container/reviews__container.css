@@ -1,0 +1,7 @@
+.reviews__container{
+    width: 874px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 113px;
+}

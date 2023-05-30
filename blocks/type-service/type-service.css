@@ -1,0 +1,7 @@
+.type-service {
+    width: 364px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+ }

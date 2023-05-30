@@ -1,0 +1,12 @@
+.couch__title {
+    margin-top: 0;
+    margin-bottom: 39px;
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-extrabold);
+    font-size: var(--font-size-main-title);
+    line-height: 73px;
+    text-align: left;
+    color: var(--font-color-variant-8);
+
+}

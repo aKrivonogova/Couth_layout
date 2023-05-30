@@ -1,0 +1,8 @@
+.requests {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 88px;
+    padding-bottom: 123px;
+}

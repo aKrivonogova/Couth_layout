@@ -1,0 +1,9 @@
+.type-service__button {
+    color: var(--font-color-variant-2);
+    background: #4B7B62;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-bottom: 25px;
+    width: 305px;
+    height: 52.22px;
+}

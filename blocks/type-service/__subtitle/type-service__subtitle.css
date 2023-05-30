@@ -1,0 +1,10 @@
+.type-service__subtitle {
+    font-family: var(--font-family-standart-variant-1);
+    font-style: normal;
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-small);
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 36px;
+    color: var( --font-color-variant-3);
+}

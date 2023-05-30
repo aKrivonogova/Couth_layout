@@ -1,0 +1,11 @@
+.header__contacts {
+    margin: 0;
+    font-family: var(--font-family-standart-variant-2);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-standard);
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: var(--font-color-variant-8);
+}

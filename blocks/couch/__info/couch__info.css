@@ -1,0 +1,6 @@
+.couch__info {
+    max-width: 586px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 190px;
+}

@@ -1,0 +1,6 @@
+.footer__social-cells {
+    width: 217px;
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 50px;
+}

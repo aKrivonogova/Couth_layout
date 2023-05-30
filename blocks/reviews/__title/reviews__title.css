@@ -1,0 +1,10 @@
+.reviews__title {
+    padding-top: 56px;
+    margin-bottom: 57px;
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-title-block);
+    line-height: 47px;
+    color: var(--font-color-variant-);
+}

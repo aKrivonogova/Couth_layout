@@ -1,0 +1,11 @@
+.services__title {
+    margin-top: 0;
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: 35px;
+    line-height: 47px;
+    margin-bottom: 13px;
+    padding-top: 51px;
+    color: var(--font-color-variant-3);
+}

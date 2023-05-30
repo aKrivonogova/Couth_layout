@@ -1,0 +1,9 @@
+.services-list__container {
+    width: 375px;
+    background: var(--theme-color-variant-1);
+    border-radius: 15px;
+    padding: 10px 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

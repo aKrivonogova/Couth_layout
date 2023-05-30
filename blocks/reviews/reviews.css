@@ -1,0 +1,7 @@
+.reviews {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--theme-color-variant-4);
+}

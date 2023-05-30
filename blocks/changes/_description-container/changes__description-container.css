@@ -1,0 +1,5 @@
+.changes__description-container{
+    width: 563px;
+    display: flex;
+    justify-content: space-between;
+}

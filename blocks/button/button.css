@@ -1,0 +1,11 @@
+.button {
+    font-family: var(--font-color-variant-1);
+    font-style: normal;
+    font-weight: var( --font-weight-bold);
+    font-size: var(--button-font-size);
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}

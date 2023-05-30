@@ -1,0 +1,15 @@
+.slider__content {
+    width: 660px;
+    height: 332px;
+    background: #DAD3D3;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family-standart-variant-1);
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-size: var( --font-size-title-block);
+    line-height: 48px;
+    color: var(--font-color-variant-3);
+}

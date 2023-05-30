@@ -1,0 +1,11 @@
+.services__subtitle {
+    font-family: var(--font-family-standart-variant-1);
+    font-style: normal;
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-medium);
+    line-height: 38px;
+    margin-top: 0;
+    margin-bottom: 39px;
+    color: var(--font-color-variant-3);
+    max-width: 461px;
+}

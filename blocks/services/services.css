@@ -1,0 +1,11 @@
+.services {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../../images/servicesMainPhoto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 58px;
+}

@@ -1,0 +1,5 @@
+.couch__container {
+    width: 1023px;
+    display: flex;
+    flex-direction: column;
+}

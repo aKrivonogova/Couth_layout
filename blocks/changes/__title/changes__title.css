@@ -1,0 +1,12 @@
+.changes__title {
+    padding-top: 48px;
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-title-block);
+    line-height: 47px;
+    text-align: center;
+    color: var(--font-color-variant-3);
+    padding-bottom: 50px;
+    max-width: 568px;
+ }

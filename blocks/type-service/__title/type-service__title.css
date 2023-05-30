@@ -1,0 +1,12 @@
+.type-service__title {
+    padding-top: 63px;
+    font-family: var(--font-family-title);
+    font-style: normal;
+    font-weight: var(--font-weight-extrabold);
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: #497960;
+    margin-bottom: 19px;
+    max-width: 261px;
+}

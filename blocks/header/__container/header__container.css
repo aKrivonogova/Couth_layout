@@ -1,0 +1,6 @@
+.header__container {
+    width: 1023px;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+}

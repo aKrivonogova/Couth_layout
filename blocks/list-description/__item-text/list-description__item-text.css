@@ -1,0 +1,10 @@
+.list-description__item-text {
+    font-family: var(--font-family-standart-variant-1);
+    font-style: normal;
+    font-weight: var( --font-weight-light);
+    font-size: var( --font-size-extra-small-variant-1);
+    line-height: 30px;
+    padding-left: 29px;
+    max-width: 324px;
+    color: #000000;
+}

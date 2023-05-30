@@ -1,0 +1,22 @@
+.type-service__image-block {
+    width: 183px;
+    height: 115px;
+    background: #9DD3A8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+}
+
+.type-service__image-block::before {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid #F4F3F3;
+    border-radius: 20px;
+    width: 175px;
+    height: 109px;
+
+}

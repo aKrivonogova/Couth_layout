@@ -1,0 +1,11 @@
+.services__item-text {
+    padding-right: 7px;
+    padding-left: 27px;
+    font-family: var(--font-family-standart-variant-1);
+    font-style: normal;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-extra-small-variant-2);
+    line-height: 31px;
+    color: #000000;
+
+}

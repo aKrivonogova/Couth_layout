@@ -1,0 +1,6 @@
+.changes__container{
+    width: 1023px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
