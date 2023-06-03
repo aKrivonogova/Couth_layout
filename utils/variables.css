@@ -173,7 +173,9 @@
 
 @media (max-width:363px) {
     :root{
-        --services-list-container-width: 100%;
-        --services-list-content-width: 100%;
+        --services-list-container-width: 320px;
+        --services-list-content-width: 290px;
+        --services-container-width: 100%;
+
     }
 }
