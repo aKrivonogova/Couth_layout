@@ -5,6 +5,40 @@
     font-size: var(--font-size-extra-small-variant-1);
     line-height: 30px;
     text-align: right;
-    color: var( --font-color-variant-8);
+    color: var(--font-color-variant-8);
     margin: 0;
+    position: relative;
+    z-index: 3;
+}
+
+@media (max-width: 1031px) {
+    .couch__description {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 768px) {
+    .couch__description {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 425px) {
+    .couch__description {
+        margin-bottom: 15px;
+        padding-left: 14px;
+        padding-right: 13px;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        background: rgba(239, 239, 239, 0.3);
+        box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+        border-radius: 7px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 380px) {
+    .couch__description {
+        line-height: 20px;
+    }
 }

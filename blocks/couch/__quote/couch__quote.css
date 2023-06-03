@@ -9,4 +9,27 @@
     margin-top: 0;
     margin-bottom: 67px;
     max-width: 500px;
+    position: relative;
+    z-index: 3;
+}
+
+@media (max-width:1024px) {
+    .couch__quote {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width:768px) {
+    .couch__quote {
+        margin-bottom: 22px;
+    }
+}
+
+
+@media (max-width:425px) {
+    .couch__quote {
+        margin-bottom: 32px;
+        text-align: center;
+        max-width: 347px;
+    }
 }

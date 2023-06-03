@@ -2,11 +2,26 @@
     background: var(#F9F9F9);
     border: 1px solid #E2E2E2;
     border-radius: 10px;
-    width: 274px;
+    width: var(--request-content-width);
     height: 126px;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 6px;
+}
+
+@media (max-width:1024px) {
+    .requests__content {
+        height: 115px;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .requests__content {
+        height: 68px;
+        width: 149px;
+    }
 }

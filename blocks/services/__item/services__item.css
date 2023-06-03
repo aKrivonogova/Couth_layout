@@ -16,3 +16,47 @@
     position: absolute;
     background: var(--theme-color-variant-2);
 }
+
+
+@media (max-width:1024px) {
+    .services__item {
+        margin-bottom: 18px;
+    }
+
+    .services__item:last-of-type {
+        margin-bottom: 23px;
+    }
+
+
+    .services__item::before {
+        width: 13px;
+        height: 13px;
+    }
+}
+
+@media (max-width:768px) {
+    .services__item:last-of-type {
+        margin-bottom: 41px;
+    }
+
+    .services__item::before {
+        width: 17px;
+        height: 17px;
+    }
+}
+
+@media (max-width:425px) {
+    .services__item {
+        margin-bottom: 25px;
+    }
+
+    .services__item:last-of-type {
+        margin-bottom: 34px;
+    }
+
+
+    .services__item::before {
+        width: 15px;
+        height: 15px;
+    }
+}

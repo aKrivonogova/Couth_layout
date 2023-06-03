@@ -3,3 +3,22 @@
     position: relative;
     padding-left: 26px;
 }
+
+
+@media (max-width: 1024px) {
+    .services__list {
+        padding-left: 19px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services__list {
+        padding-left: 26px;
+    }
+}
+
+@media (max-width: 425px) {
+    .services__list {
+        padding-left: 23px;
+    }
+}

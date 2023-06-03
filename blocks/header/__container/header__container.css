@@ -1,6 +1,23 @@
 .header__container {
-    width: 1023px;
-    display: flex;
-    justify-content: space-between;
-    height: 75px;
+    width: var(--header-container-widht);
+    height: 95px;
+    position: relative;
 }
+
+
+
+@media (max-width:768px) {
+    .header__container {
+        height: 40px;
+    }
+}
+
+/* 
+@media (max-width:1031px) {
+    .header__container {
+        position: fixed;
+        width: 100%;
+        left: -100%;
+    }
+
+} */

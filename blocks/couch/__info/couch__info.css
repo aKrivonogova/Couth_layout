@@ -1,6 +1,28 @@
 .couch__info {
-    max-width: 586px;
+    max-width: var(--couch-info-width);
     display: flex;
     flex-direction: column;
-    padding-top: 190px;
+    position: relative;
+    z-index: 3;
+    padding-top: 180px;
+}
+
+@media (max-width:1024px) {
+    .couch__info {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width:768px) {
+    .couch__info {
+        padding-top: 65px;
+    }
+}
+
+
+@media (max-width:425px) {
+    .couch__info {
+        padding-top: 75px;
+        align-items: center;
+    }
 }

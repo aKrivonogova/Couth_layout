@@ -6,10 +6,45 @@
     line-height: 33px;
     text-align: center;
     color: var(--font-color-variant-3);
-    border: 0.2px solid #F1F0F0;
     margin: 0;
+    border: none;
+    word-wrap: break-word;
+    /* Перенос слов */
+    background-color: transparent;
 }
 
-.requests__text:last-of-type{
+.requests__text:last-of-type {
     max-width: 214px;
+}
+
+.requests__list>.requests__item:nth-of-type(4)>.requests__content>.requests__text {
+    max-width: 183px;
+}
+
+
+
+@media (max-width:1024px) {
+    .requests__text {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .requests__text:last-of-type {
+        max-width: 231px;
+    }
+}
+
+@media (max-width:768px) {
+    .requests__text {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .requests__list>.requests__item:nth-of-type(4)>.requests__content>.requests__text {
+        max-width: 117px;
+    }
+}
+
+@media (max-width:425pxs) {
+    .requests__text {}
 }

@@ -1,0 +1,25 @@
+.services__image {
+    display: none;
+    width: 100%;
+    background-image: url('../../../images/servicesBlockBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 543px;
+    object-fit: contain;
+}
+
+
+@media (max-width: 768px) {
+    .services__image {
+        display: block;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .services__image {
+        background-image: url('../../../images/servicesBlockBackground425.png');
+        min-height: 362px;
+    }
+}

@@ -2,9 +2,29 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 960px;
+    max-width: var(--requests-list-width);
     list-style: none;
     padding: 0;
     list-style: none;
     margin: 0;
+}
+
+@media (max-width:1024px) {
+    .requests__list {
+        
+    }
+
+}
+
+
+@media (max-width:768px) {
+    .requests__list {
+    }
+
+}
+
+@media (max-width:425px) {
+    .requests__list {
+    }
+
 }

@@ -9,6 +9,11 @@
 @import url('../blocks/header/__contacts/header__contacts.css');
 @import url('../blocks/couch/__info/couch__info.css');
 @import url('../blocks/couch/couch.css');
+@import url('../blocks/header/__content/header__content.css');
+@import url('../blocks/services/__image/services__image.css');
+@import url('../blocks/header/__burger/header__burger.css');
+@import url('../blocks/couch/__content/couch__content.css');
+@import url('../blocks/couch/__image/couch__image.css');
 @import url('../blocks/couch/__container/couch__container.css');
 @import url('../blocks/couch/__description/couch__description.css');
 @import url('../blocks/couch/__title/couch__title.css');

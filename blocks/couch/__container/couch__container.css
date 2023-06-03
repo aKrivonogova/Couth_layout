@@ -1,5 +1,18 @@
 .couch__container {
-    width: 1023px;
+    width: var(--couch-section-width);
     display: flex;
     flex-direction: column;
+    position: relative;
 }
+
+/* @media (max-width:1031px) {
+    .couch__container {
+        width: 810px;
+    }
+}
+
+@media (max-width:801px) {
+    .couch__container {
+        width: 561px;
+    }
+} */

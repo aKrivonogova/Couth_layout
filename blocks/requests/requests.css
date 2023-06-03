@@ -6,3 +6,25 @@
     padding-top: 88px;
     padding-bottom: 123px;
 }
+
+@media (max-width:1024px) {
+    .requests {
+        padding-top: 87px;
+    }
+}
+
+@media (max-width:768px) {
+    .requests {
+        padding-top: 54px;
+        padding-bottom: 77px;
+    }
+
+}
+
+@media (max-width:425px) {
+    .requests {
+        padding-top: 59px;
+        padding-bottom: 63px;
+    }
+
+}

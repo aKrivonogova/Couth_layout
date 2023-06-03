@@ -6,6 +6,30 @@
     background-image: url('../../images/servicesMainPhoto.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     padding-bottom: 58px;
+}
+
+@media (max-width:1024px) {
+    .services {
+        padding-bottom: 39px;
+        background-image: url('../../images/servicesBackGround1024.png');
+     }
+
+}
+
+@media (max-width:768px) {
+    .services {
+        padding-bottom: 73px;
+        background: #F4F4F4;
+    }
+
+}
+
+@media (max-width:425px) {
+    .services {
+        padding-bottom: 32px;
+
+    }
+
 }

@@ -3,9 +3,32 @@
     font-family: var(--font-family-title);
     font-style: normal;
     font-weight: var(--font-weight-bold);
-    font-size: 35px;
+    font-size: var(--font-size-title-block);
     line-height: 47px;
     margin-bottom: 13px;
     padding-top: 51px;
     color: var(--font-color-variant-3);
+}
+
+@media (max-width: 1024px) {
+    .services__title {
+        padding-top: 32px;
+        margin-bottom: 19px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services__title {
+        padding-top: 63px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .services__title {
+        padding-top: 46px;
+        margin-bottom: 18px;
+        max-width: 262px;
+    }
 }

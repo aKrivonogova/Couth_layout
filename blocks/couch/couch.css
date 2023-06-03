@@ -3,18 +3,44 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 135px;
-    background-image: url('../../images/mainPhoto.jpg');
-    background-size: cover;
+    background: #AEAEA1;
+    position: relative;
+    background-image: url('../../images/SvetlanaMainBackground1440.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    overflow: hidden;
+    padding-bottom: 135px;
 }
 
-@media (min-width: 1600px) {
-    .couch{
-        min-height: 760px;
+
+@media (min-width: 1700px) {
+    .couch {
+        background-image: url('../../images/SvetlanaMainBackground1920.png');
+        background-position: center center;
+     }
+}
+
+
+@media (max-width:1023px) {
+    .couch {
+        background-image: url('../../images/SvetlanaMainBackground1030.png');
+        padding-bottom: 74px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .couch {
+        background-image: url('../../images/SvetlanaMainBackground768.png');
+        padding-bottom: 53px;
     }
 }
 
-
-
- 
+@media (max-width: 425px) {
+    .couch {
+        background-image: url('../../images/SvetlanaMainBackground425.png');
+        background-position: bottom;
+        padding-bottom: 77px;
+    }
+}

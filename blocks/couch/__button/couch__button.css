@@ -1,5 +1,5 @@
 .couch__button {
-    background: var( --theme-color-variant-3);
+    background: var(--theme-color-variant-3);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
     width: 359px;
@@ -8,4 +8,25 @@
     align-items: center;
     justify-content: center;
     color: var(--font-color-variant-7);
+}
+
+@media (max-width: 1024px) {
+    .couch__button {
+        width: 287px;
+        height: 51.96px;
+    }
+}
+
+@media (max-width: 768px) {
+    .couch__button {
+        width: 241px;
+        height: 43.64px;
+    }
+}
+
+@media (max-width: 425px) {
+    .couch__button {
+        width: 287px;
+        height: 51.96px;
+    }
 }

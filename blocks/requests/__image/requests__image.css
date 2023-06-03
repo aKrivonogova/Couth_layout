@@ -4,3 +4,24 @@
     margin-top: 32px;
     margin-bottom: 23px;
 }
+
+@media (max-width:1024px) {
+    .requests__image {
+        width: 107px;
+        height: 107px;
+        margin-top: 29px;
+        margin-bottom: 21px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .requests__image {
+        width: 63px;
+        height: 63px;
+        margin-top: 17px;
+        margin-bottom: 12px;
+    }
+
+}
+

@@ -1,4 +1,17 @@
 :root {
+    /* ширина */
+    --main-width-container: 1440px;
+    --couch-section-width: 1022px;
+    --header-container-widht: 1022px;
+    --couch-info-width: 584px;
+    --requests-list-width: 946px;
+    --request-content-width: 274px;
+    --request-item-width: 290px;
+    --services-container-width: 1080px;
+    --services-list-container-width: 401px;
+    --services-list-content-width: 375px;
+
+
     /* размеры шрфтов  */
     --font-size-main-title: 3.4375rem;
     --font-size-title-block: 2.1875rem;
@@ -8,17 +21,21 @@
     --font-size-medium: 1.75rem;
     --font-size-extra-medium: 1.875rem;
     --font-size-standard: 1rem;
+
     /*семество шрифтов*/
     --font-family-title: 'Playfair Display';
     --font-family-standart-variant-1: 'Open Sans';
     --font-family-standart-variant-2: 'Roboto';
+
     /* жирность шрифта  */
     --font-weight-light: 300;
     --font-weight-regular: 400;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --font-weight-extrabold: 800;
+
     /*цвета шрифтов*/
+
     --font-color-variant-1: #221F1F;
     --font-color-variant-2: #FFFFFF;
     --font-color-variant-3: #000000;
@@ -41,4 +58,122 @@
     --button-heigh-medium: 55px;
     --button-heigh-large: 65px;
 
+}
+
+@media (max-width: 1100px) {
+    :root {
+        --couch-section-width: 880px;
+        --header-container-widht: 900px;
+        --services-container-width: 960px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    :root {
+        --font-size-main-title: 2.8125rem;
+        --font-size-extra-medium: 1.4375rem;
+        --font-size-medium: 1.5626rem;
+        --button-font-size: 1.125rem;
+        --couch-info-width: 483px;
+        --couch-section-width: 810px;
+        --header-container-widht: 810px;
+        --requests-list-width: 868px;
+        --request-content-width: 251px;
+        --request-item-width: 266px;
+        --services-container-width: 822px;
+        --services-list-container-width: 325px;
+        --services-list-content-width: 304px;
+
+    }
+}
+
+@media (max-width: 850px) {
+    :root {
+        --couch-section-width: 740px;
+        --header-container-widht: 740px;
+    }
+
+}
+
+@media (max-width: 866px) {
+    :root {
+        --request-content-width: 222px;
+        --request-item-width: 236px;
+        --services-container-width: 730px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --font-size-main-title: 2.0625rem;
+        --font-size-extra-medium: 1.125rem;
+        --font-size-medium: 1.4375rem;
+        --button-font-size: 0.9375rem;
+        --couch-section-width: 562px;
+        --couch-info-width: 352px;
+        --header-container-widht: 562px;
+        --font-size-title-block: 2.0625rem;
+        --requests-list-width: 514px;
+        --request-content-width: 149px;
+        --request-item-width: 157px;
+        --services-container-width: 500px;
+        --services-list-container-width: 407px;
+        --services-list-content-width: 381px;
+    }
+}
+
+
+@media (max-width: 630px) {
+    :root {
+        --couch-section-width: 500px;
+        --header-container-widht: 500px;
+    }
+}
+
+@media (max-width: 550px) {
+    :root {
+        --couch-section-width: calc(100vw - 10%);
+        --header-container-widht: calc(100vw - 10%);
+        --services-container-width: 100%;
+
+    }
+}
+
+@media (max-width: 425px) {
+    :root {
+        --font-size-main-title: 2.1875rem;
+        --font-size-extra-medium: 1.4375rem;
+        --font-size-medium: 1.0625rem;
+        --font-size-title-block: 1.875rem;
+        --button-font-size: 1.125rem;
+        --couch-section-width: 376px;
+        --header-container-widht: 376px;
+        --couch-info-width: 100%;
+        --font-size-title-block: 1.875rem;
+        --requests-list-width: 341px;
+        --services-list-container-width: 362px;
+        --services-list-content-width: 338px;
+    }
+}
+
+@media (max-width:380px) {
+    :root {
+        --couch-section-width: 100%;
+
+        --header-container-widht: 100%;
+        --font-size-main-title: 1.8rem;
+        --font-size-extra-small-variant-1: 1rem;
+        --services-container-width: 362px;
+
+    }
+}
+
+@media (max-width:363px) {
+    :root{
+        --services-list-container-width: 100%;
+        --services-list-content-width: 100%;
+    }
 }

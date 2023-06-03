@@ -1,5 +1,11 @@
 .services__container {
-    width: 1080px;
+    width: var(--services-container-width);
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .services__container {
+        align-items: center;
+    }
 }

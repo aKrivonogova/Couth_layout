@@ -7,3 +7,28 @@
     height: 55.22px;
     margin-bottom: 28px;
 }
+
+@media (max-width: 1024px) {
+    .services-list__button {
+        width: 235.3px;
+        height: 42.6px;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-list__button {
+        width: 309.7px;
+        height: 56.07px;
+        margin-bottom: 41px;
+    }
+}
+
+@media (max-width: 425px) {
+    .services-list__button {
+        width: 275.46px;
+        height: 49.87px;
+        margin-bottom: 33px;
+    }
+}

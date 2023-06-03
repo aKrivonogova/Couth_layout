@@ -8,4 +8,7 @@
     align-items: center;
     color: var(--font-color-variant-1);
     text-decoration: none;
+    z-index: 3;
+    position: relative;
+    color: #221F1F;
 }
