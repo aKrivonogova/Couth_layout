@@ -57,3 +57,10 @@
         padding-left: 21px;
     }
 }
+
+@media (max-width: 360px) {
+    .list-description__item-text {
+        font-size: 17px;
+        max-width: 276px;
+    }
+}

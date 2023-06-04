@@ -34,8 +34,8 @@
     }
 }
 
-@media (max-width: 362px) {
+@media (max-width: 376px) {
     .services__item-text {
-        font-size: 16px;
+        font-size: 17px;
     }
 }

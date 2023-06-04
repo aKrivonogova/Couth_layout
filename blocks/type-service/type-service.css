@@ -17,3 +17,9 @@
         margin-bottom: 5px;
     }
  }
+
+ @media (max-width: 362px) {
+    .type-service{
+        margin-bottom: 0;
+    }
+ }

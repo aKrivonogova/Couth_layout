@@ -11,9 +11,9 @@
 }
 
 @media (min-width: 1600px) {
-    .services{
+    .services {
         background-position: top;
-         background-image: url('../../images/1920service.png');
+        background-image: url('../../images/1920service.png');
     }
 }
 
@@ -21,7 +21,7 @@
     .services {
         padding-bottom: 39px;
         background-image: url('../../images/servicesBackGround1024.png');
-     }
+    }
 
 }
 
@@ -36,7 +36,11 @@
 @media (max-width:425px) {
     .services {
         padding-bottom: 32px;
-
     }
+}
 
+@media (max-width:330px) {
+    .services {
+        padding-bottom: 43px;
+    }
 }

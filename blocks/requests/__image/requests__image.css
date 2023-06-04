@@ -25,3 +25,13 @@
 
 }
 
+
+@media (max-width:350px) {
+    .requests__image {
+        width: 57px;
+        height: 57px;
+        margin-top: 15px;
+        margin-bottom: 11px;
+    }
+
+}

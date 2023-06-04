@@ -16,7 +16,7 @@
 @media (max-width:1024px) {
     .couch__quote {
         margin-bottom: 19px;
-        max-width: 344px;
+        max-width: 360px;
     }
 }
 
@@ -33,5 +33,13 @@
         margin-bottom: 32px;
         text-align: center;
         max-width: 347px;
+    }
+}
+
+@media (max-width: 347px) {
+    .couch__quote {
+        font-size: 20px;
+        max-width: 317px;
+        margin-bottom: 25px;
     }
 }

@@ -20,3 +20,9 @@
         margin-bottom: 30px;
     }
 }
+
+@media (max-width: 362px) {
+    .list-description_margin-medium {
+        margin-bottom: 36px;
+    }
+}

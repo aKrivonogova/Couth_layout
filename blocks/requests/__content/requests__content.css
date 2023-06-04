@@ -25,3 +25,11 @@
         width: 149px;
     }
 }
+
+
+@media (max-width:350px) {
+    .requests__content {
+        width: 134px;
+        height: 62.05px;
+    }
+}

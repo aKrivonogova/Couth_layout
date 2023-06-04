@@ -45,6 +45,8 @@
     }
 }
 
-@media (max-width:425pxs) {
-    .requests__text {}
+@media (max-width:350px) {
+    .requests__text {
+        font-size: 15px;
+    }
 }

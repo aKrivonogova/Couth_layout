@@ -32,3 +32,11 @@
         margin-bottom: 33px;
     }
 }
+
+@media (max-width: 376px) {
+    .services-list__button {
+        width: 229.97px;
+        height: 41.64px;
+        margin-bottom: 22px;
+    }
+}

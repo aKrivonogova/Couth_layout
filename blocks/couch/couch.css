@@ -21,10 +21,10 @@
 }
 
 
-@media (max-width:1025px) {
+@media (max-width:1024px) {
     .couch {
         background-image: url('../../images/SvetlanaMainBackground1030.png');
-        padding-bottom: 70px;
+        padding-bottom: 65px;
     }
 
 }
@@ -41,5 +41,11 @@
         background-image: url('../../images/SvetlanaMainBackground425.png');
         background-position: bottom;
         padding-bottom: 77px;
+    }
+}
+
+@media (max-width: 330px) {
+    .couch {
+        padding-bottom: 48px;
     }
 }

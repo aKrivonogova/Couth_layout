@@ -101,21 +101,20 @@
 
         --prices-container-width: 880px;
         --type-service-content-width: 283.29px;
-        --type-service-container-width:  267.73px;
-
-
+        --type-service-container-width: 267.73px;
     }
 }
 
 
 @media (max-width: 900px) {
-    :root{
+    :root {
         --prices-container-width: 700px;
         --type-service-content-width: 360px;
         --type-service-container-width: 340px;
-     
+
     }
 }
+
 @media (max-width: 850px) {
     :root {
         --couch-section-width: 740px;
@@ -150,7 +149,6 @@
         --services-container-width: 500px;
         --services-list-container-width: 407px;
         --services-list-content-width: 381px;
-
         --prices-container-width: 700px;
         --type-service-content-width: 364.65px;
         --type-service-container-width: 344px;
@@ -158,7 +156,7 @@
 }
 
 @media (max-width: 700px) {
-    :root{
+    :root {
         --prices-container-width: 400px;
     }
 }
@@ -196,27 +194,41 @@
         --services-list-content-width: 338px;
         --prices-container-width: 100%;
         --type-service-content-width: 313.76px;
-        --type-service-container-width: 296.52px;        ;
+        --type-service-container-width: 296.52px;
     }
 }
 
-@media (max-width:380px) {
-    :root {
-        --couch-section-width: 100%;
 
+@media (max-width: 370px) {
+    :root {
+        --services-list-container-width: 302px;
+        --services-list-content-width: 283px;
+    }
+}
+
+
+
+@media (max-width: 376px) {
+    :root {
+        --font-size-main-title: 1.8125rem;
+        --font-size-title-block: 1.8125rem;
         --header-container-widht: 100%;
-        --font-size-main-title: 1.8rem;
-        --font-size-extra-small-variant-1: 1rem;
-        --services-container-width: 362px;
-
+        --couch-info-width: 100%;
+        --couch-section-width: 100%;
     }
 }
 
-@media (max-width:363px) {
+@media (max-width: 362px) {
     :root {
-        --services-list-container-width: 320px;
-        --services-list-content-width: 290px;
-        --services-container-width: 100%;
+        --type-service-content-width: 301.82px;
+        --type-service-container-width: 285.24px;
+    }
+}
 
+
+@media (max-width: 350px) {
+    :root {
+        --requests-list-width: 306px;
+        --request-item-width: 142.82px;
     }
 }

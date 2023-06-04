@@ -23,3 +23,10 @@
         min-height: 362px;
     }
 }
+
+@media (max-width: 330px) {
+    .services__image {
+        background-image: url('../../../images/servicesImage330.png');
+        min-height: 279px;
+    }
+}

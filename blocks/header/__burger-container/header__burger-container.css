@@ -1,0 +1,10 @@
+.header__burger-container{
+    position: absolute;
+    right: 0;
+}
+
+@media (max-width: 330px) {
+    .header__burger-container{
+        right: 10px;
+    }
+}

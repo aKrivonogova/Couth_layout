@@ -36,3 +36,9 @@
         line-height: 40px;
     }
 }
+
+@media (max-width:330px) {
+    .requests__title {
+        margin-bottom: 35px;
+    }
+}

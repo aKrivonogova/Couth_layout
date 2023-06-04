@@ -26,3 +26,9 @@
     }
 }
 
+
+@media (max-width: 362px) {
+    .type-service__comment_bold {
+        margin-bottom: 20px;
+    }
+}

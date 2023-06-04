@@ -21,6 +21,12 @@
         margin-bottom: 28px;
     }
 }
+
+@media (max-width: 362px) {
+    .list-description_margin-large{
+        margin-bottom: 44px;
+    }
+}
 /* @media (max-width: 1024px) {
     .list-description_margin-large{
         margin-bottom: 21px;

@@ -39,3 +39,10 @@
     }
 
 }
+
+@media (max-width: 376px) {
+    .services__subtitle {
+        margin-bottom: 35px;
+    }
+
+}

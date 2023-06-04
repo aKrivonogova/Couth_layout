@@ -29,3 +29,11 @@
         max-width: 252px;
     }
 }
+
+@media (max-width: 360px) {
+    .type-service__comment_light {
+        font-size: 13px;
+        max-width: 243px;
+        margin-bottom: 20px;
+    }
+}

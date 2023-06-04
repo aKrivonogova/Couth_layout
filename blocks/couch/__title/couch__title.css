@@ -33,3 +33,10 @@
         margin-bottom: 0;
     }
 }
+
+@media (max-width: 330px) {
+    .couch__title {
+        line-height: 39px;
+        padding-bottom: 319px;
+    }
+}
