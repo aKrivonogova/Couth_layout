@@ -8,3 +8,21 @@
     bottom: 57px;
     padding: 7px 10px;
 }
+
+@media (max-width: 1024px) {
+    .type-service__content {
+        padding: 5.2px 7.7px; 
+    }
+}
+
+@media (max-width: 900px) {
+    .type-service__content {
+        padding: 6px 10px; 
+    }
+}
+
+@media (max-width: 425px) {
+    .type-service__content {
+        padding: 6px 8px; 
+    }
+}

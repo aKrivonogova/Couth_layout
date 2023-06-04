@@ -2,7 +2,26 @@
     margin-bottom: 100px;
 }
 
+
 @media (max-width: 1024px) {
+    .list-description_margin-large{
+        margin-bottom: 18px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .list-description_margin-large{
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 425px) {
+    .list-description_margin-large{
+        margin-bottom: 28px;
+    }
+}
+/* @media (max-width: 1024px) {
     .list-description_margin-large{
         margin-bottom: 21px;
     }
@@ -11,7 +30,7 @@
 
 @media (max-width: 768px) {
     .list-description_margin-large{
-        margin-bottom: 78px;
+        margin-bottom: 90px;
     }
 }
 
@@ -19,4 +38,4 @@
     .list-description_margin-large{
         margin-bottom: 33px;
     }
-}
+} */

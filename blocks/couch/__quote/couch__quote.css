@@ -15,13 +15,15 @@
 
 @media (max-width:1024px) {
     .couch__quote {
-        margin-bottom: 24px;
+        margin-bottom: 19px;
+        max-width: 344px;
     }
 }
 
 @media (max-width:768px) {
     .couch__quote {
         margin-bottom: 22px;
+        max-width: 281px;
     }
 }
 

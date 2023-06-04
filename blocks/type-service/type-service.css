@@ -5,3 +5,15 @@
     flex-direction: column;
     position: relative;
  }
+
+ @media (max-width: 768px) {
+    .type-service{
+        margin-bottom: 36px;
+    }
+ }
+
+ @media (max-width: 425px) {
+    .type-service{
+        margin-bottom: 5px;
+    }
+ }

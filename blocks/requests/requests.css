@@ -10,13 +10,14 @@
 @media (max-width:1024px) {
     .requests {
         padding-top: 87px;
+        padding-bottom: 80px;
     }
 }
 
 @media (max-width:768px) {
     .requests {
         padding-top: 54px;
-        padding-bottom: 77px;
+        padding-bottom: 37px;
     }
 
 }
@@ -24,7 +25,7 @@
 @media (max-width:425px) {
     .requests {
         padding-top: 59px;
-        padding-bottom: 63px;
+        padding-bottom: 21px;
     }
 
 }

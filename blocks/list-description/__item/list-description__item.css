@@ -1,6 +1,7 @@
 .list-description__item {
     position: relative;
     margin-bottom: 26px;
+
 }
 
 .list-description__item:last-of-type {
@@ -23,10 +24,16 @@
     .list-description__item::before {
         width: 11px;
         height: 11px;
-        left: 5.4px;
+        left: 5.5px;
     }
 }
 
+
+@media (max-width: 900px) {
+    .list-description__item::before {
+        left: 7px;
+    }
+}
 @media (max-width: 768px) {
     .list-description__item::before {
         width: 15px;

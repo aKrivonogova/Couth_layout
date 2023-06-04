@@ -4,19 +4,19 @@
 
 @media (max-width: 1024px) {
     .list-description_margin-medium {
-        margin-bottom: 16px;
+        margin-bottom: 10px;
     }
 }
 
 
 @media (max-width: 768px) {
     .list-description_margin-medium {
-        margin-bottom: 59px;
+        margin-bottom: 10px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     .list-description_margin-medium {
-        margin-bottom: 23px;
+        margin-bottom: 30px;
     }
 }

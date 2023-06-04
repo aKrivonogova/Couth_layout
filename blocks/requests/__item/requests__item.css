@@ -50,7 +50,7 @@
 
 @media (max-width:425px) {
     .requests__item {
-        margin-bottom: 32px;
+        margin-bottom: 28px;
     }
 
     .requests__item:nth-of-type(2),

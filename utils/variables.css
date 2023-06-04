@@ -67,7 +67,7 @@
     :root {
         --prices-container-width: 1000px;
         --type-service-content-width: 320px;
-        --type-service-container-width: 310px;
+        --type-service-container-width: 300px;
     }
 }
 
@@ -100,13 +100,22 @@
         --services-list-content-width: 304px;
 
         --prices-container-width: 880px;
-        --type-service-content-width: 281.65px;
-        --type-service-container-width: 269px;
+        --type-service-content-width: 283.29px;
+        --type-service-container-width:  267.73px;
 
 
     }
 }
 
+
+@media (max-width: 900px) {
+    :root{
+        --prices-container-width: 700px;
+        --type-service-content-width: 360px;
+        --type-service-container-width: 340px;
+     
+    }
+}
 @media (max-width: 850px) {
     :root {
         --couch-section-width: 740px;
@@ -141,6 +150,16 @@
         --services-container-width: 500px;
         --services-list-container-width: 407px;
         --services-list-content-width: 381px;
+
+        --prices-container-width: 700px;
+        --type-service-content-width: 364.65px;
+        --type-service-container-width: 344px;
+    }
+}
+
+@media (max-width: 700px) {
+    :root{
+        --prices-container-width: 400px;
     }
 }
 
@@ -175,6 +194,9 @@
         --requests-list-width: 341px;
         --services-list-container-width: 362px;
         --services-list-content-width: 338px;
+        --prices-container-width: 100%;
+        --type-service-content-width: 313.76px;
+        --type-service-container-width: 296.52px;        ;
     }
 }
 

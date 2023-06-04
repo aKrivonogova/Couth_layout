@@ -1,4 +1,4 @@
-.type-service__list-description{
+.type-service__list-description {
     list-style: none;
- }
-
+    width: 100%;
+}

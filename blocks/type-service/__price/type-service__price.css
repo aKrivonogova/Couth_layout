@@ -22,7 +22,7 @@
 @media (max-width: 768px) {
     .type-service__price {
         font-size: 35px;
-        margin-bottom: 39px;
+        margin-bottom: 30px;
         line-height: 47px;
     }
 
@@ -31,7 +31,7 @@
 @media (max-width: 425px) {
     .type-service__price {
         font-size: 30px;
-        margin-bottom: 21px;
+        margin-bottom: 28px;
         line-height: 22px;
     }
 }

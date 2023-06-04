@@ -24,19 +24,20 @@
     }
 
     .services__item:last-of-type {
-        margin-bottom: 23px;
+        margin-bottom: 16px;
     }
 
 
     .services__item::before {
         width: 13px;
         height: 13px;
+       
     }
 }
 
 @media (max-width:768px) {
     .services__item:last-of-type {
-        margin-bottom: 41px;
+        margin-bottom: 49px;
     }
 
     .services__item::before {

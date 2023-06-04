@@ -5,7 +5,7 @@
     font-size: var(--font-size-extra-small-variant-1);
     line-height: 30px;
     padding-left: 27px;
-    width: 344px;
+    max-width: 100%;
     color: #000000;
 }
 
@@ -16,21 +16,36 @@
     }
 }
 
+@media (max-width: 900px) {
+    .list-description__item-text {
+        max-width: 350px;
+    }
+}
+
 @media (max-width: 1024px) {
     .list-description__item-text {
         font-size: 17px;
         line-height: 23px;
-        max-width: 260px;
+        max-width: 270px;
         padding-left: 22px;
     }
 }
+
+@media (max-width: 900px) {
+    .list-description__item-text {
+        font-size: 19px;
+        max-width: 320px;
+        padding-left: 24px;
+    }
+}
+
 
 @media (max-width: 768px) {
     .list-description__item-text {
         font-size: 22px;
         line-height: 30px;
-        max-width: 324px;
-        padding-left: 29px;
+        max-width: 340px;
+        padding-left: 26px;
     }
 }
 
@@ -38,7 +53,7 @@
     .list-description__item-text {
         font-size: 19px;
         line-height: 26px;
-        max-width: 279px;
-        padding-left: 25px;
+        max-width: 290px;
+        padding-left: 21px;
     }
 }

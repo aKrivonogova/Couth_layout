@@ -14,7 +14,7 @@
 @media (max-width:1024px) {
     .requests__title {
         max-width: 572px;
-        margin-bottom: 54px;
+        margin-bottom: 65px;
     }
 
 }
@@ -22,7 +22,7 @@
 @media (max-width:768px) {
     .requests__title {
         max-width: 572px;
-        margin-bottom: 51px;
+        margin-bottom: 65px;
         line-height: 44px;
 
     }
@@ -32,7 +32,7 @@
 @media (max-width:425px) {
     .requests__title {
         max-width: 100%;
-        margin-bottom: 65px;
+        margin-bottom: 55px;
         line-height: 40px;
     }
 }
