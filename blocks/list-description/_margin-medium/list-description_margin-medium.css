@@ -1,3 +1,22 @@
 .list-description_margin-medium {
     margin-bottom: 54px;
 }
+
+@media (max-width: 1024px) {
+    .list-description_margin-medium {
+        margin-bottom: 16px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .list-description_margin-medium {
+        margin-bottom: 59px;
+    }
+}
+
+@media (max-width: 768px) {
+    .list-description_margin-medium {
+        margin-bottom: 23px;
+    }
+}

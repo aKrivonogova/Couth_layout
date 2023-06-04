@@ -1,0 +1,25 @@
+.type-service__image {
+    width: 105px;
+    height: 105px;
+}
+
+@media (max-width: 1024px) {
+    .type-service__image {
+        width: 81.24px;
+        height: 82.43px;
+    }
+}
+
+@media (max-width: 768px) {
+    .type-service__image {
+        width: 105px;
+        height: 105px;
+    }
+}
+
+@media (max-width: 425px) {
+    .type-service__image {
+        width: 90.51px;
+        height: 90.51px;
+    }
+}

@@ -3,10 +3,33 @@
     font-family: var(--font-family-title);
     font-style: normal;
     font-weight: var(--font-weight-extrabold);
-    font-size: 25px;
+    font-size: var(--font-size-small-plus);
     line-height: 33px;
     text-align: center;
     color: #497960;
     margin-bottom: 19px;
     max-width: 261px;
+}
+
+
+@media (max-width: 1024px) {
+    .type-service__title {
+        padding-top: 55px;
+        margin-bottom: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .type-service__title {
+        padding-top: 59px;
+        margin-bottom: 18px;
+
+    }
+}
+
+@media (max-width: 425px) {
+    .type-service__title {
+        padding-top: 50px;
+        margin-bottom: 16px;
+    }
 }

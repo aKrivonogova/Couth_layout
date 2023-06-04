@@ -10,7 +10,9 @@
     --services-container-width: 1080px;
     --services-list-container-width: 401px;
     --services-list-content-width: 375px;
-
+    --prices-container-width: 1140px;
+    --type-service-content-width: 364px;
+    --type-service-container-width: 344px;
 
     /* размеры шрфтов  */
     --font-size-main-title: 3.4375rem;
@@ -18,6 +20,7 @@
     --font-size-extra-small-variant-1: 1.375rem;
     --font-size-extra-small-variant-2: 1.4375rem;
     --font-size-small: 1.5rem;
+    --font-size-small-plus: 1.5625rem;
     --font-size-medium: 1.75rem;
     --font-size-extra-medium: 1.875rem;
     --font-size-standard: 1rem;
@@ -60,6 +63,15 @@
 
 }
 
+@media (max-width: 1140px) {
+    :root {
+        --prices-container-width: 1000px;
+        --type-service-content-width: 320px;
+        --type-service-container-width: 310px;
+    }
+}
+
+
 @media (max-width: 1100px) {
     :root {
         --couch-section-width: 880px;
@@ -69,12 +81,13 @@
 }
 
 
-
 @media (max-width: 1024px) {
     :root {
         --font-size-main-title: 2.8125rem;
+        --font-size-small-plus: 1.4375rem;
         --font-size-extra-medium: 1.4375rem;
         --font-size-medium: 1.5626rem;
+        --font-size-standard: 0.875rem;
         --button-font-size: 1.125rem;
         --couch-info-width: 483px;
         --couch-section-width: 810px;
@@ -85,6 +98,11 @@
         --services-container-width: 822px;
         --services-list-container-width: 325px;
         --services-list-content-width: 304px;
+
+        --prices-container-width: 880px;
+        --type-service-content-width: 281.65px;
+        --type-service-container-width: 269px;
+
 
     }
 }
@@ -111,6 +129,7 @@
         --font-size-main-title: 2.0625rem;
         --font-size-extra-medium: 1.125rem;
         --font-size-medium: 1.4375rem;
+        --font-size-small-plus: 1.5625rem;
         --button-font-size: 0.9375rem;
         --couch-section-width: 562px;
         --couch-info-width: 352px;
@@ -172,7 +191,7 @@
 }
 
 @media (max-width:363px) {
-    :root{
+    :root {
         --services-list-container-width: 320px;
         --services-list-content-width: 290px;
         --services-container-width: 100%;

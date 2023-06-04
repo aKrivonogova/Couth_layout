@@ -18,5 +18,43 @@
     border-radius: 20px;
     width: 175px;
     height: 109px;
+}
 
+@media (max-width: 1024px) {
+    .type-service__image-block {
+        width: 141.6px;
+        height: 90.28px;
+    }
+
+    .type-service__image-block::before {
+        width: 135.41px;
+        height: 86.36px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .type-service__image-block {
+        width: 183px;
+        height: 115px;
+    }
+
+    .type-service__image-block::before {
+        width: 175px;
+        height: 110px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .type-service__image-block {
+        width: 157.74px;
+        height: 99.13px;
+    }
+
+    .type-service__image-block::before {
+        width: 150.85px;
+        height: 94.82px;
+    }
 }

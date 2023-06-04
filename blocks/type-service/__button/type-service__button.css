@@ -7,3 +7,24 @@
     width: 305px;
     height: 52.22px;
 }
+
+@media (max-width: 1024px) {
+    .type-service__button {
+        width: 236px;
+        height: 40.41px;
+    }
+}
+
+@media (max-width: 768px) {
+    .type-service__button {
+        width: 305px;
+        height: 52.22px;
+    }
+}
+
+@media (max-width: 425px) {
+    .type-service__button {
+        width: 262.91px;
+        height: 45.02px;
+    }
+}

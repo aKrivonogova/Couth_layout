@@ -10,6 +10,13 @@
     padding-bottom: 58px;
 }
 
+@media (min-width: 1600px) {
+    .services{
+        background-position: top;
+         background-image: url('../../images/1920service.png');
+    }
+}
+
 @media (max-width:1024px) {
     .services {
         padding-bottom: 39px;

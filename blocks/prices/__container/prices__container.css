@@ -1,3 +1,6 @@
 .prices__container {
-    width: 1140px;
+    width: var(--prices-container-width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

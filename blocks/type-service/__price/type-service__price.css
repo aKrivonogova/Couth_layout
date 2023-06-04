@@ -8,3 +8,30 @@
     color: var(--font-color-variant-5);
     margin-bottom: 31px;
 }
+
+@media (max-width: 1024px) {
+    .type-service__price {
+        font-size: 28px;
+        margin-bottom: 26px;
+        line-height: 37px;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .type-service__price {
+        font-size: 35px;
+        margin-bottom: 39px;
+        line-height: 47px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .type-service__price {
+        font-size: 30px;
+        margin-bottom: 21px;
+        line-height: 22px;
+    }
+}

@@ -9,3 +9,26 @@
     margin-bottom: 121px;
     text-align: center;
 }
+
+
+@media (max-width:1024px) {
+    .prices__title {
+        padding-top: 82px;
+        margin-bottom: 94px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .prices__title {
+        padding-top: 66px;
+        margin-bottom: 47px;
+    }
+}
+
+@media (max-width:425px) {
+    .prices__title {
+        padding-top: 61px;
+        margin-bottom: 54px;
+    }
+}

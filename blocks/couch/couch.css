@@ -14,10 +14,9 @@
 }
 
 
-@media (min-width: 1700px) {
+@media (min-width: 1500px) {
     .couch {
-        background-image: url('../../images/SvetlanaMainBackground1920.png');
-        background-position: center center;
+        background-image: url('../../images/Оффер\ \(4\).png');
      }
 }
 

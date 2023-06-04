@@ -43,6 +43,7 @@
 @import url('../blocks/prices/__container/prices__container.css');
 @import url('../blocks/prices/__title/prices__title.css');
 @import url('../blocks/type-service/type-service.css');
+@import url('../blocks/type-service/__image/type-service__image.css');
 @import url('../blocks/type-service/__image-block/type-service__image-block.css');
 @import url('../blocks/type-service/__content/type-service__content.css');
 @import url('../blocks/type-service/__container/type-service__container.css');

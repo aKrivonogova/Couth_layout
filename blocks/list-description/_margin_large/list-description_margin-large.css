@@ -1,3 +1,22 @@
 .list-description_margin-large{
     margin-bottom: 100px;
 }
+
+@media (max-width: 1024px) {
+    .list-description_margin-large{
+        margin-bottom: 21px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .list-description_margin-large{
+        margin-bottom: 78px;
+    }
+}
+
+@media (max-width: 768px) {
+    .list-description_margin-large{
+        margin-bottom: 33px;
+    }
+}

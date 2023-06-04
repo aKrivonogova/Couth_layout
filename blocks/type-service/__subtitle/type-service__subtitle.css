@@ -6,5 +6,31 @@
     line-height: 33px;
     text-align: center;
     margin-bottom: 36px;
-    color: var( --font-color-variant-3);
+    color: var(--font-color-variant-3);
+}
+
+@media (max-width: 1024px) {
+    .type-service__subtitle {
+        font-size: 17px;
+        margin-bottom: 27px;
+        line-height: 23px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .type-service__subtitle {
+        font-size: 24px;
+        margin-bottom: 36px;
+        line-height: 33px;
+    }
+}
+
+@media (max-width: 425px) {
+    .type-service__subtitle {
+        font-size: 20px;
+        margin-bottom: 31px;
+        line-height: 27px;
+
+    }
 }

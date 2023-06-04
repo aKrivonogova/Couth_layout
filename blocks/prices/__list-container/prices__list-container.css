@@ -1,5 +1,14 @@
-.prices__list-container{
+.prices__list-container {
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+@media (max-width: 881px) {
+    .prices__list-container {
+        justify-content: center;
+        max-width: 800px;
+    }
 }
