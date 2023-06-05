@@ -55,3 +55,16 @@
     src: url('./fonts/static/PlayfairDisplay-ExtraBold.ttf');
     font-weight: 800;
 }
+
+@font-face {
+    font-family: 'Balsamiq Sans';
+    src: url('./fonts/BalsamiqSans-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: url('./fonts/static/Caveat-Regular.ttf');
+    font-weight: 400;
+ }

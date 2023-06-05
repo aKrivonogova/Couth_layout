@@ -6,6 +6,13 @@
     padding-bottom: 113px;
 }
 
+
+@media (max-width: 768px) {
+    .reviews__container{
+        padding-bottom: 87px;
+    }
+}
+
 @media (max-width: 360px) {
     .reviews__container{
         padding-bottom: 32px;

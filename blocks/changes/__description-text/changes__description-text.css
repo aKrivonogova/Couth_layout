@@ -1,0 +1,12 @@
+.changes__description-text {
+    font-family: var(--font-family-standart-variant-3);
+    font-style: normal;
+    font-weight: var( --font-weight-regular);
+    font-size: var(--font-size-extra-small-variant-2);
+    line-height: 25px;
+    color:  var(--font-color-variant-3);
+    padding-left: 20px;
+}
+
+
+ 

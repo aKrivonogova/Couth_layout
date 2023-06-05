@@ -1,0 +1,30 @@
+.changes__description-title {
+    font-family: var(--font-family-medium-title);
+    font-style: italic;
+    font-weight: var(--font-weight-bold);
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    color: var(--font-color-variant-3);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+@media (max-width: 1024px) {
+    .changes__description-title {
+        margin-bottom: 29px;
+        
+    }
+}
+
+
+@media (max-width: 768px) {
+    .changes__description-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .changes__description-title:first-of-type {
+        padding-left: 23px;
+    }
+}

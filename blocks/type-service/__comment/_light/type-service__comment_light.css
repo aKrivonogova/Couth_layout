@@ -17,7 +17,7 @@
 @media (max-width: 768px) {
     .type-service__comment_light {
         font-size: 16px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         max-width: 295px;
     }
 }

@@ -1,5 +1,4 @@
 .changes__description-container{
-    width: 563px;
+    width: var(--changes-description-container);
     display: flex;
-    justify-content: space-between;
 }

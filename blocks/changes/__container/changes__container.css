@@ -1,5 +1,5 @@
 .changes__container{
-    width: 1023px;
+    width: var(--changes-container-width);
     display: flex;
     flex-direction: column;
     align-items: center;

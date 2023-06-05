@@ -1,0 +1,23 @@
+.changes__description-item{
+    margin-bottom: 18px;
+    position: relative;
+    width: 100%;
+}
+
+.changes__description-item::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 4px;
+    background-color: black;
+    border-radius: 50%;
+    transform: rotate(30deg);
+    top: 12px;
+    left: 3px;
+}
+
+@media (max-width: 768px) {
+    .changes__description-item{
+        margin-bottom: 11px;
+    }
+}

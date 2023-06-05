@@ -16,8 +16,11 @@
     --slider-content-width: 660px;
     --reviews-container-width: 874px;
     --slider-content-height: 332px;
+    --changes-container-width: 700px;
+    --changes-description-container: 610px;
 
-
+    --changes-list-1-width: 275px;
+    --changes-list-2-width: 276px;
     /* размеры шрфтов  */
     --font-size-main-title: 3.4375rem;
     --font-size-title-block: 2.1875rem;
@@ -33,7 +36,8 @@
     --font-family-title: 'Playfair Display';
     --font-family-standart-variant-1: 'Open Sans';
     --font-family-standart-variant-2: 'Roboto';
-
+    --font-family-medium-title: 'Balsamiq Sans';
+    --font-family-standart-variant-3: 'Caveat';
     /* жирность шрифта  */
     --font-weight-light: 300;
     --font-weight-regular: 400;
@@ -149,6 +153,7 @@
         --font-size-extra-medium: 1.125rem;
         --font-size-medium: 1.4375rem;
         --font-size-small-plus: 1.5625rem;
+        --font-size-extra-small-variant-2: 1.25rem;
         --button-font-size: 0.9375rem;
         --couch-section-width: 562px;
         --couch-info-width: 352px;
@@ -167,6 +172,12 @@
         --slider-content-width: 543px;
         --reviews-container-width: 646px;
         --slider-content-height: 273px;
+        --changes-container-width: 100%;
+
+        --changes-description-container: 540px;
+        --changes-list-1-width: 270px;
+        --changes-list-2-width: 266px;
+
     }
 }
 

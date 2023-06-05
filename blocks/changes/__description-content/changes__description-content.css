@@ -1,0 +1,14 @@
+.changes__description-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.changes__description-content:first-of-type {
+    margin-right: 60px;
+}
+
+@media (max-width: 768px) {
+    .changes__description-content:first-of-type {
+        margin-right: 0;
+    }
+}
