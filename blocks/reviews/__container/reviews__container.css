@@ -1,7 +1,13 @@
 .reviews__container{
-    width: 874px;
+    width: var(--reviews-container-width);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 113px;
+}
+
+@media (max-width: 360px) {
+    .reviews__container{
+        padding-bottom: 32px;
+    }
 }

@@ -1,6 +1,20 @@
 .slider__container {
-    width: 874px; 
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 768px) {
+    .slider__container>svg {
+        width: 27.59px;
+        height: 25.53px;
+    }
+}
+
+@media (max-width: 425px) {
+    .slider__container>svg {
+        width: 21.33px;
+        height: 19.74px;
+    }
 }

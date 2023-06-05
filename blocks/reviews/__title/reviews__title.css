@@ -9,4 +9,23 @@
     color: var(--font-color-variant-);
 }
 
+@media (max-width: 1024px) {
+    .reviews__title {
+        margin-bottom: 65px;
+    }
+}
+
+@media (max-width: 768px) {
+    .reviews__title {
+        padding-top: 63px;
+        margin-bottom: 52px;
+    }
+}
+
+@media (max-width: 360px) {
+    .reviews__title {
+        padding-top: 31px;
+        margin-bottom: 30px;
+    }
+}
  

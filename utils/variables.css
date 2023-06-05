@@ -13,6 +13,10 @@
     --prices-container-width: 1140px;
     --type-service-content-width: 364px;
     --type-service-container-width: 344px;
+    --slider-content-width: 660px;
+    --reviews-container-width: 874px;
+    --slider-content-height: 332px;
+
 
     /* размеры шрфтов  */
     --font-size-main-title: 3.4375rem;
@@ -105,6 +109,13 @@
     }
 }
 
+@media (max-width: 875px) {
+    :root {
+        --slider-content-width: 550px;
+        --reviews-container-width: 764px;
+    }
+}
+
 
 @media (max-width: 900px) {
     :root {
@@ -152,6 +163,10 @@
         --prices-container-width: 700px;
         --type-service-content-width: 364.65px;
         --type-service-container-width: 344px;
+
+        --slider-content-width: 543px;
+        --reviews-container-width: 646px;
+        --slider-content-height: 273px;
     }
 }
 
@@ -160,6 +175,23 @@
         --prices-container-width: 400px;
     }
 }
+
+@media (max-width: 646px) {
+    :root {
+        --slider-content-width: 400px;
+        --reviews-container-width: 550px;
+        --slider-content-height: 210px;
+    }
+}
+
+@media (max-width: 550px) {
+    :root {
+        --slider-content-width: 320px;
+        --reviews-container-width: 425px;
+        --slider-content-height: 210px;
+    }
+}
+
 
 
 @media (max-width: 630px) {
@@ -195,6 +227,9 @@
         --prices-container-width: 100%;
         --type-service-content-width: 313.76px;
         --type-service-container-width: 296.52px;
+        --slider-content-width: 279px;
+        --reviews-container-width: 353px;
+        --slider-content-height: 212px;
     }
 }
 
@@ -222,6 +257,9 @@
     :root {
         --type-service-content-width: 301.82px;
         --type-service-container-width: 285.24px;
+        --slider-content-width: 247.49px;
+        --reviews-container-width: calc(100% - 18px);
+        --slider-content-height: 188.06px;
     }
 }
 
