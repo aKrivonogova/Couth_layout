@@ -19,7 +19,36 @@
     .changes__description-list {
         padding-left: 15px;
     }
+
     .changes__description-list:first-of-type>.changes__description-item:nth-child(3) {
         max-width: 230px;
     }
+}
+
+@media (max-width: 550px) {
+    .changes__description-list {
+        padding-left: 0;
+
+    }
+
+}
+
+@media (max-width: 425px) {
+    .changes__description-list:first-of-type>.changes__description-item:nth-child(4) {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 340px) {
+    .changes__description-list:last-of-type>.changes__description-item:nth-child(3) {
+        max-width: 125px;
+    }
+    .changes__description-item{
+        margin-bottom: 13px;
+    }
+
+    .changes__description-list:first-of-type>.changes__description-item:nth-child(5) {
+        max-width: 90px;
+    }
+
 }

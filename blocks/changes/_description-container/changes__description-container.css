@@ -1,4 +1,25 @@
-.changes__description-container{
+.changes__description-container {
     width: var(--changes-description-container);
     display: flex;
 }
+
+@media (max-width: 550px) {
+    .changes__description-container {
+        justify-content: space-around;
+    }
+
+}
+
+@media (max-width: 470px) {
+    .changes__description-container {
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 340px) {
+    .changes__description-container {
+        justify-content: start;
+    }
+}
+
+

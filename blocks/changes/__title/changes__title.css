@@ -26,3 +26,28 @@
         line-height: 44px;
     }
 }
+
+@media (max-width: 530px) {
+    .changes__title {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 470px) {
+    .changes__title {
+        font-size: 30px;
+        max-width: 350px;
+        line-height: 40px;
+        padding-top: 51px;
+        padding-bottom: 86px;
+    }
+}
+
+@media (max-width: 340px) {
+    .changes__title {
+        font-size: 28px;
+        line-height: 32px;
+        max-width: 294px;
+        padding-bottom: 55px;
+    }
+}

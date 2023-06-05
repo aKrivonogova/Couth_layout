@@ -12,3 +12,24 @@
         margin-right: 0;
     }
 }
+
+@media (max-width: 470px) {
+    .changes__description-content:first-of-type {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .changes__description-content:first-of-type {
+        margin-right: 3px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 340px) {
+    .changes__description-content:first-of-type {
+        margin-right: 15px;
+        padding-left: 17px;
+
+    }
+}

@@ -22,3 +22,18 @@
         min-height: 640px;
     }
 }
+
+
+@media (max-width: 470px) {
+    .changes{
+        background-image: url('../../images/changes425.png');
+        min-height: 512px;
+    }
+}
+
+@media (max-width: 340px) {
+    .changes{
+        background-image: url('../../images/changes330.png');
+        min-height: 478px;
+    }
+}
