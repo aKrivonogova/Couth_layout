@@ -18,9 +18,10 @@
     --slider-content-height: 332px;
     --changes-container-width: 700px;
     --changes-description-container: 610px;
-
     --changes-list-1-width: 275px;
     --changes-list-2-width: 276px;
+    --footer-container-width: 1030px;
+
     /* размеры шрфтов  */
     --font-size-main-title: 3.4375rem;
     --font-size-title-block: 2.1875rem;
@@ -76,6 +77,7 @@
         --prices-container-width: 1000px;
         --type-service-content-width: 320px;
         --type-service-container-width: 300px;
+
     }
 }
 
@@ -85,6 +87,7 @@
         --couch-section-width: 880px;
         --header-container-widht: 900px;
         --services-container-width: 960px;
+        --footer-container-width: 1024px;
     }
 }
 
@@ -110,6 +113,14 @@
         --prices-container-width: 880px;
         --type-service-content-width: 283.29px;
         --type-service-container-width: 267.73px;
+        --footer-container-width: 884px;
+        --social-cells-width: 180px;
+    }
+}
+
+@media (max-width: 885px) {
+    :root {
+        --footer-container-width: 765px;
     }
 }
 
@@ -177,7 +188,8 @@
         --changes-description-container: 540px;
         --changes-list-1-width: 270px;
         --changes-list-2-width: 266px;
-
+        --footer-container-width: 648px;
+        --social-cells-width: 128px;
     }
 }
 
@@ -192,6 +204,7 @@
         --slider-content-width: 400px;
         --reviews-container-width: 550px;
         --slider-content-height: 210px;
+        --footer-container-width: 100%;
     }
 }
 
@@ -253,8 +266,9 @@
         --reviews-container-width: 353px;
         --slider-content-height: 212px;
         --changes-description-container: 340px;
-         --changes-list-1-width: 156px;
+        --changes-list-1-width: 156px;
         --changes-list-2-width: 170px;
+        --social-cells-width: 130px;
     }
 }
 
@@ -285,6 +299,7 @@
         --slider-content-width: 247.49px;
         --reviews-container-width: calc(100% - 18px);
         --slider-content-height: 188.06px;
+        --social-cells-width: 113px;
     }
 }
 
@@ -298,9 +313,9 @@
 }
 
 @media (max-width: 340px) {
-    :root{
+    :root {
         --changes-description-container: 280px;
         --changes-list-1-width: 116px;
-       --changes-list-2-width: 130px;
+        --changes-list-2-width: 130px;
     }
 }

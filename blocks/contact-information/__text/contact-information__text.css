@@ -7,3 +7,39 @@
     line-height: 30px;
     color: #767676;
 }
+
+@media (max-width: 1024px) {
+    .contact-information__text {
+        font-size: 19px;
+        line-height: 26px;
+        max-width: 226px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-information__text {
+        font-size: 17px;
+        line-height: 23px;
+        max-width: 164px;
+    }
+}
+
+@media (max-width: 648px) {
+    .contact-information__text {
+        max-width: 100%;
+    }
+    
+}
+@media (max-width: 425px) {
+    .contact-information__text {
+        font-size: 14px;
+        line-height: 19px;
+      
+    }
+}
+
+@media (max-width: 360px) {
+    .contact-information__text {
+   
+    }
+}
