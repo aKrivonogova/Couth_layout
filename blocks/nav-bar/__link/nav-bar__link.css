@@ -11,17 +11,26 @@
     z-index: 3;
     position: relative;
     color: #221F1F;
+    text-align: center;
 }
 
 /* наведение  */
-.nav-bar__link:hover {
-    color: var(--nav-bar-link-hover);
+@media (min-width: 1024px) {
+    .nav-bar__link:hover {
+        color: var(--nav-bar-link-hover);
+    }
 }
 
 @media (max-width: 1024px) {
     .header__content.header__menu-active>.nav-bar>.nav-bar__link:hover {
         background-color: var(--nav-bar-link-background-hover);
+
+    }
+
+    .header__content.header__menu-active>.nav-bar>.nav-bar__link {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .header__content.header__menu-active>.nav-bar {
