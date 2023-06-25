@@ -1,0 +1,19 @@
+.header__button {
+    width: 184px;
+    height: 30px;
+    background: #9DD3A8;
+    font-size: 13px;
+    border-radius: 10px;
+    display: none;
+
+}
+
+
+@media (max-width: 1024px) {
+    .header__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 27px;
+    }
+}

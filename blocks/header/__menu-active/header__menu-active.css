@@ -1,0 +1,6 @@
+@media (max-width: 1024px) {
+    .header__menu-active {
+        opacity: 1;
+        visibility: visible;
+    }
+}

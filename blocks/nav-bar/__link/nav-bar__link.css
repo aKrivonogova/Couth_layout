@@ -12,3 +12,20 @@
     position: relative;
     color: #221F1F;
 }
+
+/* наведение  */
+.nav-bar__link:hover {
+    color: var(--nav-bar-link-hover);
+}
+
+@media (max-width: 1024px) {
+    .header__content.header__menu-active>.nav-bar>.nav-bar__link:hover {
+        background-color: var(--nav-bar-link-background-hover);
+        width: 100%;
+    }
+
+    .header__content.header__menu-active>.nav-bar {
+        width: 100%;
+        text-align: center;
+    }
+}

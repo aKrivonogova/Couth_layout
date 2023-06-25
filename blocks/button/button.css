@@ -1,11 +1,16 @@
 .button {
     font-family: var(--font-family-standart-variant-1);
     font-style: normal;
-    font-weight: var( --font-weight-bold);
+    font-weight: var(--font-weight-bold);
     font-size: var(--button-font-size);
     line-height: 27px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: none;
+    transition: .2s;
+}
+
+.button:hover {
+    background-color: var(--button-hover);
 }

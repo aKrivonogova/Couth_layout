@@ -21,6 +21,8 @@
     --changes-list-1-width: 275px;
     --changes-list-2-width: 276px;
     --footer-container-width: 1030px;
+    --social-cells-width: 210px;
+
 
     /* размеры шрфтов  */
     --font-size-main-title: 3.4375rem;
@@ -69,6 +71,11 @@
     --button-heigh-small: 52px;
     --button-heigh-medium: 55px;
     --button-heigh-large: 65px;
+
+    /*цвет при наведении*/
+    --nav-bar-link-hover: #2E8B57;
+    --nav-bar-link-background-hover: #7B68EE;
+    --button-hover: #4682B4;
 
 }
 
